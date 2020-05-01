@@ -26,3 +26,5 @@ console.log("Printed from outside function");
 console.log(number); 
 console.log(string);
 console.log(obj1.value);
+
+// These printed from outside will still return the original unchanged values as the change() function changes values only inside the function
