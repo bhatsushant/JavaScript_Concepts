@@ -25,3 +25,8 @@ Array.prototype.map = function() {
     }
     return arr;
 }
+
+let array = [1,2,3,4];
+array.map();
+
+// Output - ["1 MAP", "2 MAP", "3 MAP", "4 MAP"];
